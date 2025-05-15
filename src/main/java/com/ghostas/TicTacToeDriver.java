@@ -37,7 +37,7 @@ public class TicTacToeDriver {
 
                 game.printBoard();
 
-                // triadikos telestis:
+                // ternary operator:
                 player = (game.checkForWinner()) ? player : (player % 2 == 0) ? 1 : 2;
 
 
